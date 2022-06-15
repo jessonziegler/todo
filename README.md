@@ -1,6 +1,7 @@
 ### `To Do List`
 
-### `Try it here: https://jz-todo-list.netlify.app/`
+### `Try it here:`
+https://jz-todo-list.netlify.app/
 
 In the project directory, you can run:
 
