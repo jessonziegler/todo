@@ -1,4 +1,5 @@
-### `To Do List`
+### `Simple To Do List`
+## `Made to be used as a bokmark on iphone homepage`
 
 ### `Try it here:`
 https://jz-todo-list.netlify.app/
