@@ -1,5 +1,5 @@
 ### `Simple To Do List`
-## `Made to be used as a bookmark on iphone homepage`
+## `Created to be used as a bookmark icon on iphone homepage`
 
 ### `Try it here:`
 https://jz-todo-list.netlify.app/
