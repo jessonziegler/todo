@@ -1,5 +1,5 @@
 ### `Simple To Do List built with React`
-## `Created to be used as a bookmark icon on iphone homepage`
+ `Created to be used as a bookmark icon on iphone homepage`
 
 ### `Try it here:`
 https://jz-todo-list.netlify.app/
