@@ -1,4 +1,4 @@
-### `Simple To Do List`
+### `Simple To Do List built with React`
 ## `Created to be used as a bookmark icon on iphone homepage`
 
 ### `Try it here:`
