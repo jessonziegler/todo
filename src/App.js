@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
+import "./App.css";
+import Button from "@mui/material/Button";
 import Todolist from "./TodoList";
 import uuidv4 from "uuid/v4";
-
 const LOCAL_STORAGE_KEY = "todoApp.todos";
 
 function App() {
@@ -37,12 +38,23 @@ function App() {
   }
   return (
     <>
+      <div>
+        <h1 id="title">To Do List</h1>
+      </div>
+
       <Todolist todos={todos} toggleTodo={toggleTodo} />
-      <input ref={todoNameRef} type="text" />
-      <button onClick={handleAddTodo}>Add Todo</button>
+      <input id="input" ref={todoNameRef} type="text" />
+
+      <Button variant="contained" id="addtodo" onClick={handleAddTodo}>
+        Add
+      </Button>
       <br></br>
-      <button onClick={handleClearTodos}>Clear Completed</button>
-      <div>{todos.filter((todo) => !todo.complete).length} left to do</div>
+      <Button variant="contained" id="clear" onClick={handleClearTodos}>
+        Clear
+      </Button>
+      <div id="lefttodo">
+        {todos.filter((todo) => !todo.complete).length} Left To Do
+      </div>
     </>
   );
 }

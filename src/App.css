@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+body {
+  background: black;
+}
+/* .todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+} */
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-bottom: 500px;
+  width: 520px;
+  min-height: 400px;
+  background: #7cbcb6;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+#addtodo {
+  width: 100px;
+  background-color: rgb(62, 59, 59);
+  display: flex;
+  justify-content: center;
+  margin-left: 210px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+#clear {
+  width: 100px;
+  background-color: rgb(62, 59, 59);
+  display: flex;
+  justify-content: center;
+  margin-left: 210px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+#lefttodo {
+  margin-top: 10px;
+}
+#checkbox {
+  margin-right: 4px;
+
+  cursor: pointer;
+  margin-top: 10px;
+}
+#input {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 108px;
+  /* border-radius: 10px; */
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#title {
+  margin-top: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
