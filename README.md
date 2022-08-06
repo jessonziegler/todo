@@ -1,4 +1,4 @@
-### `Simple To Do List built with React`
+### `Simple To Do List built with React, Css and MUI`
  `Created to be used as a bookmark icon on iphone homepage`
 
 ### `Try it here:`
